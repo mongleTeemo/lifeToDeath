@@ -1,3 +1,11 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    list-style: none;
+    padding: 0;
+}
 .text-center {
     text-align: center;
 }
@@ -83,4 +91,69 @@
 .launching form button {
     padding: 12px 50px;
     border-radius: 50px;
+}
+.game {
+    padding: 120px 0;
+}
+.game-title {
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 47px;
+    text-align: center;
+}
+.game-discription {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+    color: #6f6f6f;
+    margin-bottom: 120px;
+}
+.game-content li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 1020px;
+    margin: 80px auto;
+}
+.game-content li .point {
+    margin-bottom: 20px;
+}
+.game-content li span {
+    padding: 8px 28px;
+    color: #fff;
+    background-color: #ff4e5a;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+.game-content li h3 {
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    margin-bottom: 12px;
+}
+.game-content li p {
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 29px;
+}
+.game-content li .game-content-right {
+    text-align: right;
+}
+.game-content li:nth-child(2n) .game-content-right {
+    text-align: left;
 }
