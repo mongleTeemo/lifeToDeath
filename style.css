@@ -1,3 +1,6 @@
+.text-center {
+    text-align: center;
+}
 .h100 {
     height: 100%;
 }
@@ -24,7 +27,7 @@
     width: 1020px;
     margin: 0 auto;
 }
-.baner-content-left h3 {
+.baner-content-left h1 {
     font-family: Noto Sans KR;
     color: #fff;
     font-style: normal;
@@ -35,4 +38,49 @@
 }
 .baner-content-right {
     text-align: right;
+}
+.launching {
+    height: 287px;
+    background-color: #eee;
+    display: flex;
+    padding: 60px 0;
+    flex-direction: column;
+    justify-content: center;
+}
+.launching h3 {
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.launching p {
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0;
+    /* identical to box height */
+    margin-bottom: 26px;
+    text-align: center;
+}
+.launching form {
+    display: flex;
+    justify-content: center;
+}
+.launching form input {
+    margin-right: 20px;
+    padding: 12px 0;
+    width: 300px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+}
+.launching form button {
+    padding: 12px 50px;
+    border-radius: 50px;
 }
